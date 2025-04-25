@@ -20,7 +20,7 @@ int main()
     {
         if (N == 0) break; // If N == 0 , the input is terminated
 
-        // 
+        // Copy and paste from the question 
         int G = 0;
         for (int i = 1; i < N; i++)
         {
