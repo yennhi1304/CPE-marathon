@@ -33,7 +33,7 @@ int main()
         int x_2 = min(x2, x4);
         int y_2 = min(y2, y4);
 
-        stronglySecured = calculateArea(x_1, y_1, x_2, y_2);
+        stronglySecured = calculateArea(x_1, y_1, x_2, y_2); // If there is no intersection part, calculateArea returns 0
 
 
         weaklySecured = calculateArea(x1, y1, x2, y2) + calculateArea(x3, y3, x4, y4) - 2*stronglySecured;
